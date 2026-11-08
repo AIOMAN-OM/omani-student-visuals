@@ -16,7 +16,7 @@ Real outputs from testing the skill with "Omani girl, grade 4".
 
 **Character design sheet**
 
-<img src="examples/02-character-sheet.jpg" width="780">
+<img src="examples/02-character-sheet.jpg" width="420">
 
 ## Structure
 - `SKILL.md` — main instructions
