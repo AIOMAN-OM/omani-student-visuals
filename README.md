@@ -4,6 +4,20 @@
 
 An agent skill that produces a full visual studio package for Omani school students (hero shots, camera-angle sets, character sheets, storyboards, mockups and A4 sticker sheets) following Omani school uniform rules.
 
+## أمثلة من المخرجات | Examples
+
+مخرجات فعلية من تجربة المهارة بطلب: «طالبة عُمانية، الصف الرابع» — صورة رئيسية، ورقة الشخصية، وورقة ملصقات A4.
+
+Real outputs from testing the skill with "Omani girl, grade 4".
+
+| Hero image | Sticker sheet (A4) |
+|---|---|
+| <img src="examples/01-hero.jpg" width="380"> | <img src="examples/03-sticker-sheet-a4.jpg" width="380"> |
+
+**Character design sheet**
+
+<img src="examples/02-character-sheet.jpg" width="780">
+
 ## Structure
 - `SKILL.md` — main instructions
 - `agents/openai.yaml` — display metadata
