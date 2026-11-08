@@ -50,7 +50,8 @@ When the user invokes this skill with an uploaded student photo, or uploads a st
 - For girls, include a white hijab and use the grade-based uniform colors: maroon for grades 1–4 and navy blue for grades 5–12. Keep the uniform modest and age-appropriate.
 - Apply these uniform rules consistently to every image, camera view, sheet, storyboard frame, and product mockup in the same set. Preserve an explicit user-provided outfit reference when the user asks to match it.
 - Use recognizable Omani school settings when requested: classroom corridors, courtyards, libraries, classrooms, or school entrances, with restrained local architectural details and palm landscaping where fitting.
-- Keep children wholesome and age-appropriate. Avoid adult styling, suggestive posing, unnecessary national symbols, school logos, and legible text.
+- Keep children wholesome and age-appropriate. Avoid adult styling and suggestive posing.
+- **Hard rule for every generated image, sheet, sticker and mockup:** no flags of any country (including the Omani flag), no logos or emblems, and no written text, lettering, captions or labels. Use cultural cues such as forts, palms, dhows, khanjar shapes or kumma patterns instead of flags. On character sheets and sticker sheets, leave label areas blank; add any required headings afterwards with reliable typesetting. Before presenting results, check each image and regenerate any that contains a flag, logo or lettering.
 - For stylized 3D visuals, use expressive but natural faces, appealing proportions, tactile fabric, coherent materials, readable silhouettes, and cinematic lighting. Avoid naming a living artist or studio in the actual image prompt.
 
 ## Individual images and camera sets

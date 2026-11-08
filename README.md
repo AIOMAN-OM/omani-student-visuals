@@ -27,3 +27,7 @@ Real outputs from testing the skill with "Omani girl, grade 4".
 Copy the `omani-student-visuals` folder into your skills directory (e.g. `~/.claude/skills/`), or download the repo as ZIP and upload it as a skill.
 
 By [AIOMAN](https://github.com/AIOMAN-OM)
+
+## License
+
+MIT — see [LICENSE](LICENSE).
