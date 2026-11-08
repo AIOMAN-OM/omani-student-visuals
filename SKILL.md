@@ -1,6 +1,6 @@
 ---
 name: omani-student-visuals
-description: "Generate the full 21-image visual studio package for an Omani school student from a description or uploaded photo: hero, camera-angle set, character/face/eye sheets, portraits, cinematic and editorial shots, Canon looks, ground-level wide shot, mug/T-shirt mockup, two A4 sticker sheets and storyboard. Girls: white hijab, maroon (grades 1–4) or navy (5–12); boys: white dishdasha and kumma. No flags, logos or text in images."
+description: "Generate the full 24-image studio package for an Omani school student from a description or photo: hero, camera angles, character/face/eye sheets, portraits, cinematic, editorial and watercolor styles, Canon looks, ground-level and low-angle shots, mockups, two A4 sticker sheets and storyboard. Girls: white hijab, maroon (grades 1–4) or navy (5–12); boys: white dishdasha and kumma. No flags, logos or text."
 ---
 
 # Omani Student Visuals
@@ -29,9 +29,12 @@ Produce each item as its own image, except where the item itself is a sheet, sto
 12. **School-label sticker sheet:** an A4 portrait sheet of repeated writable labels with clear blank fields for name, grade, and class/section.
 13. **Storyboard:** a compact sequence covering opening, main action, and ending, generated as separate frames or a single board according to the user's preference.
 
-### Default image count: 21 images
+### Default image count: 24 images
 
-The default package totals 21 separate images, numbered 1–21: hero (1); camera-angle set: wide, medium, close-up, profile/three-quarter, overhead/drone (2–6); turnaround sheet (7); face-angle sheet (8); eye-angle sheet (9); portrait contact sheet (10); cinematic (11); editorial (12); three Canon looks (13–15); ground-level wide angle (16); mug + T-shirt mockup (17); assorted A4 sticker sheet (18); school-label A4 sheet (19); storyboard opening and closing frames (20–21). Never go below 21 unless the user explicitly limits the request, never merge deliverables into one collage, and vary pose, gesture, expression and camera across images while keeping identity and uniform.
+The default package is 24 separate, newly generated images, numbered 1–24, each with its own pose:
+1 hero: three-quarter portrait at the desk, chin on hand. 2–6 camera set: 2 wide, walking through the school courtyard; 3 medium, raising a hand in class; 4 close-up, reading with eyes down; 5 profile, writing on the whiteboard; 6 drone top-down, standing on patterned courtyard tiles looking up and waving. 7 turnaround sheet. 8 face-angle sheet. 9 eye-angle sheet. 10 portrait contact sheet. 11 cinematic: running to the school gate at golden hour. 12 editorial: seated on a stool against a plain studio backdrop. 13–15 Canon: 50 mm library portrait, 85 mm laughing close-up, 70–200 mm candid at a science fair. 16 ground-level smartphone ultra-wide, hand reaching to the lens. 17 mug and T-shirt mockup. 18 assorted A4 stickers. 19 school-label A4 sheet. 20–21 storyboard opening and closing frames. 22 over-the-shoulder: solving a puzzle at the desk. 23 low-angle heroic shot on the school stairs. 24 soft watercolor storybook illustration in the library.
+
+Generate in batches of up to 6 images per turn, list the numbers still pending, and continue when the user replies. Never crop, collage or reuse an image to fill a number, and never repeat a pose. Go below 24 only when the user explicitly limits the request.
 
 If a tool or output limit prevents completing the entire package in one turn, generate the first available portions and continue with the remaining listed deliverables in subsequent turns; do not silently omit or replace categories. Keep individual images separate unless a combined sheet or board is requested.
 
@@ -46,7 +49,7 @@ Workflow:
 
 ### Direct processing of uploaded student photos
 
-When the user invokes this skill with an uploaded student photo, or uploads a student photo during an active Omani student studio request, treat the image itself as the production brief and immediately generate the full cumulative studio package. Do not pause to ask whether to proceed, which outputs they want, or routine questions about camera, pose, or background. Use the uploaded image as the identity and visual-continuity reference for all generated outputs. Preserve the student's recognizable face, apparent age, skin tone, hair, and any user-specified details. Apply the established gender- and grade-based uniform rules consistently unless the user explicitly asks to preserve a different outfit. If grade or other minor details are not stated, infer a suitable school-age default from the image and continue. Only narrow the package when the user explicitly limits the requested outputs. Never replace the uploaded source image; create the studio derivatives from it.
+When the user invokes this skill with an uploaded student photo, or uploads one during an active studio request, treat the image as the production brief and immediately generate the full package without routine questions. Use it as the identity reference for every output: preserve face, apparent age, skin tone, hair and user-specified details. Apply the gender- and grade-based uniform rules unless the user asks to keep a different outfit. Infer a suitable grade if not stated. Narrow the package only when the user explicitly limits it. Never replace the source image.
 
 ## Omani student design
 
@@ -88,7 +91,7 @@ Use clean studio or school backgrounds, flattering soft light, accurate child pr
 
 ## Simulated Canon camera looks
 
-When the user asks for images “shot on Canon” or requests different Canon cameras, reflect the requested camera and lens as a photographic rendering target in the prompt. Vary the body/lens and resulting depth of field or framing across a set while preserving the student's identity, uniform, and scene. Examples include a Canon EOS R5 or R6 Mark II with a 50 mm or 85 mm portrait lens for portraits, an RF 24–70 mm lens for environmental/editorial frames, and a 70–200 mm lens for compressed candid or stage views. Use only as illustrative camera-language; follow a specific model or lens chosen by the user. If model choice is unspecified, select a sensible varied set and label each image by its simulated body/lens. Treat these as generated images with a Canon-inspired photographic look, not photographs actually captured by Canon equipment. If the user means a visible Canon camera in the scene, include it as a prop only when clearly requested.
+When the user asks for images “shot on Canon” or for different Canon cameras, use the camera and lens as a photographic rendering target and vary body/lens, depth of field and framing while preserving identity, uniform and scene. Examples: EOS R5 or R6 Mark II with a 50 mm or 85 mm lens for portraits, RF 24–70 mm for environmental frames, 70–200 mm for compressed candid views. Follow any model or lens the user names; otherwise pick a varied set and label each image by its simulated body/lens. These are Canon-inspired generated images, not real photographs. Show a Canon camera as a prop only when clearly requested.
 
 ## Character and editing sheets
 
