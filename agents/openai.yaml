@@ -1,0 +1,14 @@
+interface:
+  display_name: Omani Student Visuals
+  short_description: Full Omani student image studio with A4 sticker sheets
+  default_prompt: Use $omani-student-visuals to turn this Omani student photo into
+    the full cumulative studio package.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
