@@ -1,6 +1,6 @@
 ---
 name: omani-student-visuals
-description: "Generate a full visual studio package for Omani school students from a description or uploaded photo: hero and multi-angle images, character/face/eye sheets, storyboards, cinematic and age-appropriate editorial shots, simulated Canon looks, ground-level wide shots, mug/T-shirt mockups and two A4 sticker sheets. Girls: white hijab, maroon (grades 1–4) or navy (grades 5–12); boys: white dishdasha and kumma. No flags, logos or text in images."
+description: "Generate the full 21-image visual studio package for an Omani school student from a description or uploaded photo: hero, camera-angle set, character/face/eye sheets, portraits, cinematic and editorial shots, Canon looks, ground-level wide shot, mug/T-shirt mockup, two A4 sticker sheets and storyboard. Girls: white hijab, maroon (grades 1–4) or navy (5–12); boys: white dishdasha and kumma. No flags, logos or text in images."
 ---
 
 # Omani Student Visuals
@@ -29,6 +29,10 @@ Produce each item as its own image, except where the item itself is a sheet, sto
 12. **School-label sticker sheet:** an A4 portrait sheet of repeated writable labels with clear blank fields for name, grade, and class/section.
 13. **Storyboard:** a compact sequence covering opening, main action, and ending, generated as separate frames or a single board according to the user's preference.
 
+### Default image count: 21 images
+
+The default package totals 21 separate images, numbered 1–21: hero (1); camera-angle set: wide, medium, close-up, profile/three-quarter, overhead/drone (2–6); turnaround sheet (7); face-angle sheet (8); eye-angle sheet (9); portrait contact sheet (10); cinematic (11); editorial (12); three Canon looks (13–15); ground-level wide angle (16); mug + T-shirt mockup (17); assorted A4 sticker sheet (18); school-label A4 sheet (19); storyboard opening and closing frames (20–21). Never go below 21 unless the user explicitly limits the request, never merge deliverables into one collage, and vary pose, gesture, expression and camera across images while keeping identity and uniform.
+
 If a tool or output limit prevents completing the entire package in one turn, generate the first available portions and continue with the remaining listed deliverables in subsequent turns; do not silently omit or replace categories. Keep individual images separate unless a combined sheet or board is requested.
 
 Workflow:
@@ -51,7 +55,7 @@ When the user invokes this skill with an uploaded student photo, or uploads a st
 - Apply these uniform rules consistently to every image, camera view, sheet, storyboard frame, and product mockup in the same set. Preserve an explicit user-provided outfit reference when the user asks to match it.
 - Use recognizable Omani school settings when requested: classroom corridors, courtyards, libraries, classrooms, or school entrances, with restrained local architectural details and palm landscaping where fitting.
 - Keep children wholesome and age-appropriate. Avoid adult styling and suggestive posing.
-- **Hard rule for every generated image, sheet, sticker and mockup:** no flags of any country (including the Omani flag), no logos or emblems, and no written text, lettering, captions or labels. Use cultural cues such as forts, palms, dhows, khanjar shapes or kumma patterns instead of flags. On character sheets and sticker sheets, leave label areas blank; add any required headings afterwards with reliable typesetting. Before presenting results, check each image and regenerate any that contains a flag, logo or lettering.
+- **Hard rule for every generated image, sheet, sticker and mockup:** no flags of any country (including the Omani flag), no logos or emblems, and no written text, lettering, captions or labels. Use cultural cues such as forts, palms, dhows, khanjar shapes or kumma patterns instead of flags. On character sheets and sticker sheets, leave label areas blank; the only permitted words are the school-label field headings (الاسم، الصف، الشعبة), added afterwards with reliable typesetting, never generated inside the image. Before presenting results, check each image and regenerate any that contains a flag, logo or lettering.
 - For stylized 3D visuals, use expressive but natural faces, appealing proportions, tactile fabric, coherent materials, readable silhouettes, and cinematic lighting. Avoid naming a living artist or studio in the actual image prompt.
 
 ## Individual images and camera sets

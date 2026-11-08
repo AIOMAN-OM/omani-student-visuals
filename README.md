@@ -1,14 +1,14 @@
 # omani-student-visuals
 
-مهارة (Skill) لتوليد حزمة صور متكاملة لطلاب المدارس العُمانية من وصف أو صورة: صور رئيسية وزوايا تصوير، أوراق شخصية ووجه وعين، لوحات قصصية، صور سينمائية، نماذج كوب وتيشيرت، وورقتا ملصقات A4 — مع الالتزام بالزي المدرسي العُماني.
+مهارة (Skill) لتوليد حزمة من 21 صورة بوضعيات وزوايا مختلفة لطلاب المدارس العُمانية من وصف أو صورة: صور رئيسية وزوايا تصوير، أوراق شخصية ووجه وعين، لوحات قصصية، صور سينمائية، نماذج كوب وتيشيرت، وورقتا ملصقات A4 — مع الالتزام بالزي المدرسي العُماني.
 
-An agent skill that produces a full visual studio package for Omani school students (hero shots, camera-angle sets, character sheets, storyboards, mockups and A4 sticker sheets) following Omani school uniform rules.
+An agent skill that produces a full 21-image visual studio package for Omani school students (hero shots, camera-angle sets, character sheets, storyboards, mockups and A4 sticker sheets) following Omani school uniform rules.
 
 ## أمثلة من المخرجات | Examples
 
-مخرجات فعلية من تجربة المهارة بطلب: «طالبة عُمانية، الصف الرابع» — صورة رئيسية، ورقة الشخصية، وورقة ملصقات A4.
+نماذج من 3 مخرجات (من أصل 21) من تجربة المهارة بطلب: «طالبة عُمانية، الصف الرابع» — صورة رئيسية، ورقة الشخصية، وورقة ملصقات A4.
 
-Real outputs from testing the skill with "Omani girl, grade 4".
+Three of the 21 default outputs, from testing the skill with "Omani girl, grade 4".
 
 | Hero image | Sticker sheet (A4) |
 |---|---|
