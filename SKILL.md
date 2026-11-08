@@ -1,6 +1,6 @@
 ---
 name: omani-student-visuals
-description: "When the user invokes the skill or uploads an Omani student photo in this visual-studio context, generate the cumulative full studio package directly from the image: hero and multi-angle photos, character/face/eye sheets, storyboards, cinematic and age-appropriate magazine-editorial images, simulated Canon camera variations, ground-level wide-angle shots, mug/T-shirt mockups, and two A4 sticker sheets. Follow Omani uniforms: girls wear a white hijab, maroon in grades 1–4 and navy in grades 5–12; boys wear a white dishdasha and kumma."
+description: "Generate a full visual studio package for Omani school students from a description or uploaded photo: hero and multi-angle images, character/face/eye sheets, storyboards, cinematic and age-appropriate editorial shots, simulated Canon looks, ground-level wide shots, mug/T-shirt mockups and two A4 sticker sheets. Girls: white hijab, maroon (grades 1–4) or navy (grades 5–12); boys: white dishdasha and kumma. No flags, logos or text in images."
 ---
 
 # Omani Student Visuals
