@@ -18,6 +18,16 @@ Three of the 21 default outputs, from testing the skill with "Omani girl, grade 
 
 <img src="examples/02-character-sheet.jpg" width="420">
 
+**Ground-level wide-angle signature shot (smartphone ultra-wide on the floor)**
+
+<img src="examples/04-ground-level-wide-angle.jpg" width="780">
+
+**Classroom variations from the same run**
+
+| | | |
+|---|---|---|
+| <img src="examples/05-variation-a.jpg" width="250"> | <img src="examples/06-variation-b.jpg" width="250"> | <img src="examples/07-variation-c.jpg" width="250"> |
+
 ## Structure
 - `SKILL.md` — main instructions
 - `agents/openai.yaml` — display metadata
